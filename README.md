@@ -1,6 +1,10 @@
 # bob-in-win-py-wxocr
 
-这是 **Win 下的 bob**：基于 Python 的 Windows 截屏翻译工具，支持热键截图、OCR 识别和多翻译引擎并行翻译。
+这是 **Win 下的 bob**（个人尝试-高响应）：基于 Python 的 Windows 截屏翻译工具，支持热键截图、OCR 识别和多翻译引擎并行翻译。
+
+主要就是做一件事——截图ocr翻译，有预加载保证截图和相应速度，体验还是蛮跟手的，好用。wxocr也好用（别商用，个人玩就好）
+后续慢慢改吧hhh
+<img width="700" height="574" alt="image" src="https://github.com/user-attachments/assets/83879daa-efbd-47ee-adb9-be6ca10feab4" />
 
 ## 功能
 
@@ -28,14 +32,14 @@ python main.py
 
 ## 配置
 
-本仓库不包含你的私有配置。
+本仓库不包含私有配置。
 
 - 模板：`PyBob/config.default.yaml`
 - 运行时用户配置：`%APPDATA%/PyBob/config.yaml`
 
 ## Release（下载 EXE）
 
-`bob_win_py.exe` 不放进 Git 仓库（文件较大），在 GitHub Release 的 Assets 中提供下载。
+`bob_win_py.exe`  Release  中提供下载。
 
 ## 鸣谢
 
