@@ -1,0 +1,30 @@
+app:
+  hotkey: alt+d
+
+ocr:
+  plugin_dir: ../WechatOCR_umi_plugin_full
+  wechat_ocr_dir: ""
+  wechat_dir: ""
+
+translation:
+  provider: google
+  providers:
+    - google
+  source_lang: auto
+  target_lang: zh-CN
+
+  openai:
+    api_key: ""
+    base_url: https://api.openai.com/v1
+    model: gpt-4o-mini
+    system_prompt: 你是专业翻译引擎。只输出翻译后的文本，不要解释。保持原文语气和格式。
+    profiles: []
+
+  microsoft:
+    subscription_key: ""
+    region: ""
+    endpoint: https://api.cognitive.microsofttranslator.com
+
+  google:
+    api_key: ""
+    endpoint: https://translation.googleapis.com/language/translate/v2

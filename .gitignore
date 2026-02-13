@@ -1,0 +1,25 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual env
+.venv/
+venv/
+
+# Private config
+PyBob/config.yaml
+*.secret.yaml
+
+# Local build outputs
+build/
+dist/
+release/
+*.log
+*.tmp
+
+# IDE / OS
+.vscode/
+.DS_Store
+Thumbs.db
